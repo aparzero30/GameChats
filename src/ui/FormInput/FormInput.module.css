@@ -1,0 +1,22 @@
+.formInput {
+  margin-top: 1.5vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+  color: #5893ea;
+  font-weight: bold;
+}
+.formInput label {
+  font-size: 1.2vh;
+}
+.formInput input {
+  width: 20vw;
+  font-size: 1vw;
+  background-color: transparent;
+  border-color: #5893ea;
+  padding: 0.8vh;
+  color: white;
+  border-radius: 6px;
+  border-width: 2px;
+  outline: none;
+}

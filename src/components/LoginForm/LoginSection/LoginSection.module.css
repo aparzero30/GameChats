@@ -1,0 +1,12 @@
+.loginSection {
+  width: 60%;
+  height: 85%;
+  margin-left: 3vh;
+  margin-top: 1vh;
+}
+.loginSection h1 {
+  margin: 0;
+  font-family: "Cherry Bomb One";
+  color: #5893ea;
+  user-select: none;
+}

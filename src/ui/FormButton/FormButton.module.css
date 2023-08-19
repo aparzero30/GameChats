@@ -1,0 +1,12 @@
+.btn {
+  margin-top: 2vh;
+  width: 21vw;
+  outline: none;
+  height: 2.2vw;
+  font-family: "Poppins";
+  background-color: #5893ea;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+}

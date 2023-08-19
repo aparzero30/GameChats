@@ -1,0 +1,18 @@
+.banner {
+  height: 100%;
+  width: 50%;
+  margin-left: 2%;
+  background-size: 80% 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner i {
+  font-size: 15vw;
+  user-select: none;
+  /* color: #5893ea; */
+  color: #5893ea;
+}

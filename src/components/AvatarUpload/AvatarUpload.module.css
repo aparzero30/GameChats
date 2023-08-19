@@ -1,0 +1,54 @@
+.avatarUpload {
+  margin-top: 1vh;
+  width: 21vw;
+  height: 5vw;
+  display: flex;
+  flex-direction: row;
+  gap: 1vh;
+}
+
+input[type="file"] {
+  width: 15vw;
+  height: max-content;
+  font-family: "Poppins";
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="file"]::file-selector-button {
+  border: none;
+  background: #5893ea;
+  padding: 10px 20px;
+  width: 15vw;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  font-family: "Poppins";
+}
+
+.preview {
+  height: 5vw;
+  width: 5vw;
+  min-height: 5vw;
+  min-width: 5vw;
+  background-color: #5893ea;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  background-size: 100% 100%;
+  background-position: center;
+}
+.info label {
+  font-style: italic;
+  color: white;
+  font-family: "Poppins";
+}
